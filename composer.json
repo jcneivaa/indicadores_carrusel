@@ -1,0 +1,28 @@
+{
+    "name": "unal/indicadores-carrusel",
+    "type": "typo3-cms-extension",
+    "description": "Extension para mostrar de forma graficia indicadores estadisticos de la UN",
+    "authors": [
+        {
+            "name": "Camilo Neiva",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unal\\IndicadoresCarrusel\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unal\\IndicadoresCarrusel\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "indicadores_carrusel": "self.version",
+        "typo3-ter/indicadores-carrusel": "self.version"
+    }
+}

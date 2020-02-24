@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="es" datatype="plaintext" original="messages" date="2020-02-20T21:29:02Z" product-name="indicadores_carrusel">
+		<header/>
+		<body>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador">
+				<source>Indicador</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.nombre">
+				<source>Nombre</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.nombre_display">
+				<source>Nombre Display</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.subtext">
+				<source>Subtext</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.descripcion">
+				<source>Descripcion</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.badge">
+				<source>Badge</source>
+			</trans-unit>
+			<trans-unit id="tx_indicadorescarrusel_domain_model_indicador.altbadge">
+				<source>Altbadge</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

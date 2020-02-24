@@ -24,36 +24,24 @@ plugin.tx_indicadorescarrusel_carruselindicadores {
     }
 }
 
-# these classes are only used in auto-generated templates
-plugin.tx_indicadorescarrusel._CSS_DEFAULT_STYLE (
-    textarea.f3-form-error {
-        background-color:#FF9F9F;
-        border: 1px #FF0000 solid;
+
+page{
+
+    includeCSS {
+
+        indicadores-carrusel = EXT:indicadores_carrusel/Resources/Public/Css/indicadores-carrusel.scss
+        slick = EXT:indicadores_carrusel/Resources/Public/Css/slick.css
+        slick-theme = EXT:indicadores_carrusel/Resources/Public/Css/slick-theme.css
+
     }
 
-    input.f3-form-error {
-        background-color:#FF9F9F;
-        border: 1px #FF0000 solid;
+    includeJS {
+
+        slick = EXT:indicadores_carrusel/Resources/Public/Js/slick.min.js
+        indicadores-carrusel = EXT:indicadores_carrusel/Resources/Public/Js/indicadores_unal.js
+
     }
 
-    .tx-indicadores-carrusel table {
-        border-collapse:separate;
-        border-spacing:10px;
-    }
 
-    .tx-indicadores-carrusel table th {
-        font-weight:bold;
-    }
 
-    .tx-indicadores-carrusel table td {
-        vertical-align:top;
-    }
-
-    .typo3-messages .message-error {
-        color:red;
-    }
-
-    .typo3-messages .message-ok {
-        color:green;
-    }
-)
+}
